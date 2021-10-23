@@ -83,7 +83,8 @@ img {
 
 .container {
   margin: 0 auto;
-  max-width: 1190px;
+  padding: 0 15px;
+  max-width: 1220px;
 }
 
 .header {
@@ -239,7 +240,7 @@ img {
   font-weight: 500;
   font-size: 14px;
   line-height: 23px; /* or 164% */
-  word-wrap: none;
+  text-align: center;
 }
 
 .button-primary {
@@ -257,7 +258,10 @@ img {
 .promo {
   padding: 50px 0;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  flex-wrap: wrap;
+  column-gap: 50px;
+  row-gap: 25px;
 }
 
 .card {
